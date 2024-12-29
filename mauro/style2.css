@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    
+}
+section {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#422769, #582769);
+    background-repeat: no-repeat;
+    font-family: "Bebas Neue", serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    max-width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.Fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+    background-image: linear-gradient(#422769,#582769);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.card img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.card video {
+    width: 200px;
+    height: 250px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.card-content a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.card-content a:hover {
+    background: #0056b3;
+}
+
+marquee {
+    height: 450px;
+    width: 100vw;
+    background: #000000;  
+}
+.rolagem{
+    height: 350px;
+    width:300px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+footer {
+    background-color: #000000;
+    display: flex; /* Ativa o flexbox */
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+h1 {
+    color:#422769 ;
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+}
